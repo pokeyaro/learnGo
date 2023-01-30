@@ -13,6 +13,6 @@
 ### 2. 基础数据类型
 
 1. [数值、浮点数和字符串](https://github.com/pokeyaro/learnGo/tree/master/chapter02/section01)
-
-
+2. [类型转换和格式化](https://github.com/pokeyaro/learnGo/tree/master/chapter02/section02)
+3. [运算符和表达式](https://github.com/pokeyaro/learnGo/tree/master/chapter02/section03)
 
