@@ -5,6 +5,7 @@ import "fmt"
 func main() {
 	// 显式定义
 	const PI float32 = 3.1415926
+	const MY_NAME = "鸣人"
 
 	// 定义一组
 	const (
