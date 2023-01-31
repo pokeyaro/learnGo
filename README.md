@@ -22,4 +22,5 @@
 2. [转义符与多行字符串](https://github.com/pokeyaro/learnGo/tree/master/chapter03/section02)
 3. [字符串格式化输出](https://github.com/pokeyaro/learnGo/tree/master/chapter03/section03)
 4. [字符串拼接方式](https://github.com/pokeyaro/learnGo/tree/master/chapter03/section04)
+5. [字符串常用方法](https://github.com/pokeyaro/learnGo/tree/master/chapter03/section05)
 
