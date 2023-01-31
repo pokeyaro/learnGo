@@ -6,7 +6,7 @@
 
 1. [如何定义变量](https://github.com/pokeyaro/learnGo/tree/master/chapter01/section01)
 2. [如何定义常量](https://github.com/pokeyaro/learnGo/tree/master/chapter01/section02)
-3. [iota的使用细节](https://github.com/pokeyaro/learnGo/tree/master/chapter01/section03)
+3. [iota 的使用细节](https://github.com/pokeyaro/learnGo/tree/master/chapter01/section03)
 4. [匿名变量的使用](https://github.com/pokeyaro/learnGo/tree/master/chapter01/section04)
 5. [变量的作用域](https://github.com/pokeyaro/learnGo/tree/master/chapter01/section05)
 
@@ -23,4 +23,9 @@
 3. [字符串格式化输出](https://github.com/pokeyaro/learnGo/tree/master/chapter03/section03)
 4. [字符串拼接方式](https://github.com/pokeyaro/learnGo/tree/master/chapter03/section04)
 5. [字符串常用方法](https://github.com/pokeyaro/learnGo/tree/master/chapter03/section05)
+
+### 4. 流程控制语句
+
+1. [if 条件判断句](https://github.com/pokeyaro/learnGo/tree/master/chapter04/section01)
+
 
