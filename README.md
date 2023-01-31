@@ -26,6 +26,9 @@
 
 ### 4. 流程控制语句
 
-1. [if 条件判断句](https://github.com/pokeyaro/learnGo/tree/master/chapter04/section01)
-
+1. [if 条件判断语句](https://github.com/pokeyaro/learnGo/tree/master/chapter04/section01)
+2. [for 循环语句](https://github.com/pokeyaro/learnGo/tree/master/chapter04/section02)
+3. [for range 语句](https://github.com/pokeyaro/learnGo/tree/master/chapter04/section03)
+4. [goto 关键字](https://github.com/pokeyaro/learnGo/tree/master/chapter04/section04)
+5. [switch 语句](https://github.com/pokeyaro/learnGo/tree/master/chapter04/section05)
 
