@@ -16,3 +16,10 @@
 2. [类型转换和格式化](https://github.com/pokeyaro/learnGo/tree/master/chapter02/section02)
 3. [运算符和表达式](https://github.com/pokeyaro/learnGo/tree/master/chapter02/section03)
 
+### 3. 字符串操作
+
+1. [获取字符串长度](https://github.com/pokeyaro/learnGo/tree/master/chapter03/section01)
+2. [转义符与多行字符串](https://github.com/pokeyaro/learnGo/tree/master/chapter03/section02)
+3. [字符串格式化输出](https://github.com/pokeyaro/learnGo/tree/master/chapter03/section03)
+4. [字符串拼接方式](https://github.com/pokeyaro/learnGo/tree/master/chapter03/section04)
+
