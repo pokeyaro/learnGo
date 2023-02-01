@@ -32,3 +32,12 @@
 4. [goto 关键字](https://github.com/pokeyaro/learnGo/tree/master/chapter04/section04)
 5. [switch 语句](https://github.com/pokeyaro/learnGo/tree/master/chapter04/section05)
 
+### 5. 容器、集合类型
+
+1. [数组的使用](https://github.com/pokeyaro/learnGo/tree/master/chapter05/section01)
+2. [切片的使用](https://github.com/pokeyaro/learnGo/tree/master/chapter05/section02)
+3. [Map 的使用](https://github.com/pokeyaro/learnGo/tree/master/chapter05/section03)
+4. [List 的使用](https://github.com/pokeyaro/learnGo/tree/master/chapter05/section04)
+
+
+
