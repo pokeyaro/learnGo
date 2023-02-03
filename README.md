@@ -53,4 +53,5 @@
 1. [数据库连接与配置](https://github.com/pokeyaro/learnGo/tree/master/gorm/section01)
 2. [表的迁移与 Crud 操作](https://github.com/pokeyaro/learnGo/tree/master/gorm/section02)
 3. [表的 struct 模型定义](https://github.com/pokeyaro/learnGo/tree/master/gorm/section03)
+4. [CRUD — Create](https://github.com/pokeyaro/learnGo/tree/master/gorm/section04)
 
