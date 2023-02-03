@@ -88,3 +88,47 @@ func main() {
     fmt.Println(classData) // [鸣人 小樱 佐井 宁次 小李 天天]
 }
 ```
+
+## 删除切片的元素
+
+删除切片其中的元素，虽然操作起来比较麻烦，但也只能这样拼接
+
+```go
+func main() {
+    knife := []string{
+        "断刀·斩首大刀",
+        "大刀·鲛肌",
+        "长刀·缝针",
+        "钝刀·兜割", // 删除这个
+        "爆刀·飞沫",
+        "雷刀·牙",
+        "双刀·鲆鲽",
+    }
+    newKnife := append(knife[:3], knife[4:]...)
+
+    fmt.Println(knife)    // 原切片： [断刀·斩首大刀 大刀·鲛肌 长刀·缝针 钝刀·兜割 爆刀·飞沫 雷刀·牙 双刀·鲆鲽]
+    fmt.Println(newKnife) // 删除后： [断刀·斩首大刀 大刀·鲛肌 长刀·缝针 爆刀·飞沫 雷刀·牙 双刀·鲆鲽]
+}
+```
+
+## 切片的深浅拷贝
+
+```go
+func main() {
+    // 拷贝
+    monsters := []string{"蛤蟆文太", "蛤蟆吉", "蛤蟆龙"}
+
+    // 浅拷贝
+    monstersCopy := monsters[:]
+
+    // 深拷贝
+    var monstersCopyDeep = make([]string, len(monsters))
+    copy(monstersCopyDeep, monsters)
+
+    monsters[1] = "万蛇"
+    monstersCopy[2] = "蛞蝓"
+    fmt.Println(monsters)         // 原切片： [蛤蟆文太 万蛇 蛞蝓]
+    fmt.Println(monstersCopy)     // 浅拷贝： [蛤蟆文太 万蛇 蛞蝓]
+    fmt.Println(monstersCopyDeep) // 深拷贝： [蛤蟆文太 蛤蟆吉 蛤蟆龙]
+}
+```
