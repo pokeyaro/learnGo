@@ -41,7 +41,7 @@ CREATE TABLE `products` (
 
 ## Crud 操作
 
-- update：结构体方式仅更新非零值的字段，若为零值，是不做更新操作的！map方式可更新零值！
+- update：Updates 方法 struct 方式仅更新非零值的字段，若为零值，是不做更新操作的！map 方式可更新零值！
 - delete：仅作逻辑删除，本质上 deleted_at 字段默认为空，若更新标记上时间，则算作被删除！
 
 ```go
@@ -98,9 +98,39 @@ UPDATE `products` SET `code`='',`price`=0,`updated_at`='2023-02-03 15:01:35.946'
 UPDATE `products` SET `deleted_at`='2023-02-03 15:01:35.981' WHERE `products`.`id` = 1 AND `products`.`id` = 1 AND `products`.`deleted_at` IS NULL;
 ```
 
-## 解决 struct 方式更新零值的问题
+## 解决 Updates 方法更新零值的问题
 
-通过 NullType 来解决结构体方式无法更新零值的问题
+### 将 type 设置为指针 *type
+
+```go
+type Product struct {
+    gorm.Model
+    Code  *string
+    Price *uint
+}
+
+func main() {
+    ...
+
+    // Create
+    valInt := 100
+    valStr := "D42"
+    db.Create(&Product{
+        Code: &valStr,
+        Price: &valInt,
+    })
+
+    // Update - update product's price to 0, code to ""
+    zeroInt := 0
+    zeroStr := ""
+    db.Model(&Product{ID:1}).Updates(Product{
+        Price: &zeroInt, 
+        Code: &zeroStr,
+    })
+}
+```
+
+### 使用 sql.NullType 来解决
 
 ```go
 // 模型的字段类型定义为nulltype
@@ -121,7 +151,7 @@ func main() {
 
     // Update - update product's price to 0, code to ""
     var product Product
-    db.Model(&product).Updates(Product{Price: 200, Code: "F42"})
+    db.Model(&product).Updates(Product{Price: 0, Code: ""})
 }
 ```
 
