@@ -2,8 +2,8 @@
 
 ## 目录
 
-- [Go 基础](#go 基础)
-- [Gorm 使用](#gorm 使用)
+- [Go 基础](#go-基础)
+- [Gorm 使用](#gorm-使用)
 
 ---
 
@@ -46,7 +46,6 @@
 3. [Map 的使用](https://github.com/pokeyaro/learnGo/tree/master/basic/chapter05/section03)
 4. [List 的使用](https://github.com/pokeyaro/learnGo/tree/master/basic/chapter05/section04)
 
----
 
 ## Gorm 使用
 
