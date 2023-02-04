@@ -43,8 +43,9 @@
 
 1. [数组的使用](https://github.com/pokeyaro/learnGo/tree/master/basic/chapter05/section01)
 2. [切片的使用](https://github.com/pokeyaro/learnGo/tree/master/basic/chapter05/section02)
-3. [Map 的使用](https://github.com/pokeyaro/learnGo/tree/master/basic/chapter05/section03)
-4. [List 的使用](https://github.com/pokeyaro/learnGo/tree/master/basic/chapter05/section04)
+3. [Slice 底层存储原理](https://github.com/pokeyaro/learnGo/tree/master/basic/chapter05/section03)
+4. [Map 的使用](https://github.com/pokeyaro/learnGo/tree/master/basic/chapter05/section04)
+5. [List 的使用](https://github.com/pokeyaro/learnGo/tree/master/basic/chapter05/section05)
 
 
 ## Gorm 使用
