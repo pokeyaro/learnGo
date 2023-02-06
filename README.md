@@ -60,4 +60,4 @@
 6. [CRUD — Read (II)](https://github.com/pokeyaro/learnGo/tree/master/gorm/section06)
 7. [CRUD — Update](https://github.com/pokeyaro/learnGo/tree/master/gorm/section07)
 8. [CRUD — Delete](https://github.com/pokeyaro/learnGo/tree/master/gorm/section08)
-
+9. [模型的常用钩子方法](https://github.com/pokeyaro/learnGo/tree/master/gorm/section09)
