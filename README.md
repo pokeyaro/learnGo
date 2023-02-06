@@ -58,3 +58,6 @@
 4. [CRUD — Create](https://github.com/pokeyaro/learnGo/tree/master/gorm/section04)
 5. [CRUD — Read (I)](https://github.com/pokeyaro/learnGo/tree/master/gorm/section05)
 6. [CRUD — Read (II)](https://github.com/pokeyaro/learnGo/tree/master/gorm/section06)
+7. [CRUD — Update](https://github.com/pokeyaro/learnGo/tree/master/gorm/section07)
+8. [CRUD — Delete](https://github.com/pokeyaro/learnGo/tree/master/gorm/section08)
+
