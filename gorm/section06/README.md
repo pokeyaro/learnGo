@@ -101,3 +101,20 @@ func main() {
     // SELECT * FROM users WHERE name = '鸣人' OR (name = '佐助' AND age = 20);
 }
 ```
+
+## 选择指定字段
+
+```go
+func main() {
+    var user User
+    
+    db.Select("name", "age").Find(&users)
+    // SELECT name, age FROM users;
+
+    db.Select([]string{"name", "age"}).Find(&users)
+    // SELECT name, age FROM users;
+
+    db.Table("users").Select("COALESCE(age,?)", 22).Rows()
+    // SELECT COALESCE(age,'22') FROM users;
+}
+```
