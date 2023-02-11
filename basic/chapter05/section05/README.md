@@ -4,7 +4,7 @@
 
 - 高级类型如：map、slice、pointer、channel、func、interface 的零值，都是空 nil
 - make 是内置函数，主要用于初始化 slice、map、channel 数据类型
-- map 必须初始化才能够时候，但 slice 可以不初始化
+- map 必须初始化才能够使用，但 slice 可以不初始化
 
 ## slice 的使用细节
 
